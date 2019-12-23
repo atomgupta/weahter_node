@@ -40,7 +40,7 @@ fetch(`http://localhost:3000/weather?address=${location}`).then((response)=>{
        else{
            p1.textContent=data.location;
            p2.textContent=data.forecast;
-        //    console.log(data.location)
+           console.log(data.location)
         //    console.log(data.forecast) 
        }
     })
